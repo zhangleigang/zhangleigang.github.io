@@ -5,18 +5,18 @@
 # Site
 title: "zhangleigang"
 subtitle:
-#description: 主要是一些总结
-#author: zhangxiaohe
+description: just some deposit
+author: "小空"
 avatar: https://avatars1.githubusercontent.com/u/6985961
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://zhangleigang.github.io
-root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+#url: http://zhangleigang.github.io
+#root: /
+#permalink: :year/:month/:day/:title/
+#permalink_defaults:
 
 # Directory
 source_dir: source
