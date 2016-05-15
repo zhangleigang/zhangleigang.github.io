@@ -1,28 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>zhangleigang</title>
+  <title>张小空</title>
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-14T07:04:45.328Z</updated>
+  <updated>2016-05-15T13:13:44.008Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>小空</name>
+    <name>zhangleigang</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Linux学习环境搭建</title>
+    <link href="http://yoursite.com/2016/05/15/Linux%E5%AD%A6%E4%B9%A0%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    <id>http://yoursite.com/2016/05/15/Linux学习环境搭建/</id>
+    <published>2016-05-15T02:56:35.000Z</published>
+    <updated>2016-05-15T13:13:44.008Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;&amp;#x9700;&amp;#x8981;&amp;#x51C6;&amp;#x5907;&amp;#x7684;&amp;#x8F6F;&amp;#x4EF6;&amp;#x5305;&quot;&gt;&lt;a href=&quot;#&amp;#x9700;&amp;#x8981;&amp;#x51C6;&amp;#x5907;&amp;#x7684;&amp;#x8F6F;&amp;#x4EF6;&amp;#x5305;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x9700;&amp;#x8981;&amp;#x51C6;&amp;#x5907;&amp;#x7684;&amp;#x8F6F;&amp;#x4EF6;&amp;#x5305;&quot;&gt;&lt;/a&gt;&amp;#x9700;&amp;#x8981;&amp;#x51C6;&amp;#x5907;&amp;#x7684;&amp;#x8F6F;&amp;#x4EF6;&amp;#x5305;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;#x865A;&amp;#x62DF;&amp;#x673A;&amp;#x8F6F;&amp;#x4EF6;VMware Workstation&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;win7&amp;#x7CFB;&amp;#x7EDF;&amp;#x63A8;&amp;#x8350;8.0&amp;#x7248;&amp;#x672C;&amp;#xFF0C;&amp;#x6CE8;&amp;#x610F;&amp;#x8BE5;&amp;#x8F6F;&amp;#x4EF6;&amp;#x5E76;&amp;#x4E0D;&amp;#x662F;&amp;#x514D;&amp;#x8D39;&amp;#x7684;&amp;#x3002;&lt;ul&gt;
+&lt;li&gt;&amp;#x8FD9;&amp;#x91CC;&amp;#x5206;&amp;#x4EAB;&amp;#x4E00;&amp;#x4E2A;&amp;#x81EA;&amp;#x5DF1;&amp;#x7FFB;&amp;#x5899;&amp;#x4E0B;&amp;#x7684;&lt;a href=&quot;http://pan.baidu.com/s/1i5xvYx3&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;VMware Workstation 8.0.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;#x9700;&amp;#x8981;&amp;#x8F93;&amp;#x5165;&amp;#x7684;licence&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;linux&amp;#x7CFB;&amp;#x7EDF;&amp;#x955C;&amp;#x50CF;&amp;#x6587;&amp;#x4EF6;&lt;br&gt;&amp;#x53EF;&amp;#x4EE5;&amp;#x5230;&lt;a href=&quot;http://mirrors.163.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;mirror.163.com&lt;/a&gt;&amp;#x53BB;&amp;#x4E0B;&amp;#x8F7D;&amp;#xFF0C;&amp;#x901F;&amp;#x5EA6;&amp;#x4F1A;&amp;#x6BD4;&amp;#x8F83;&amp;#x5FEB;&amp;#xFF0C;&amp;#x6700;&amp;#x597D;&amp;#x7528;&amp;#x8FC5;&amp;#x96F7;&amp;#x4E0B;&amp;#x8F7D;&amp;#x3002;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;&amp;#x9700;&amp;#x8981;&amp;#x51C6;&amp;#x5907;&amp;#x7684;&amp;#x8F6F;&amp;#x4EF6;&amp;#x5305;&quot;&gt;&lt;a href=&quot;#&amp;#x9700;&amp;#x8981;&amp;#x51C6;&amp;#x5907;&amp;#x7684;&amp;#x8F6F;&amp;#x4EF6;&amp;#x5305;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x9700;&amp;#x8981;&amp;#x51C6;&amp;#x5907;&amp;#x7684;&amp;#x8F6F;&amp;#x4EF6;&amp;#x5305;&quot;&gt;&lt;/a&gt;&amp;#x9700;&amp;#x8981;&amp;#x51C6;&amp;#x5907;&amp;#x7684;&amp;#x8F6F;&amp;#x4EF6;&amp;#x5305;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;#x865A;&amp;#x62DF;&amp;#x673A;&amp;#x8F6F;&amp;#x4EF6;VMware Workstation&lt;/li&gt;&lt;/ol&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>TCP/IP</title>
     <link href="http://yoursite.com/2016/05/13/TCP-IP/"/>
     <id>http://yoursite.com/2016/05/13/TCP-IP/</id>
     <published>2016-05-12T23:00:00.000Z</published>
-    <updated>2016-05-14T07:04:45.328Z</updated>
+    <updated>2016-05-15T13:13:56.465Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4EEC;&amp;#x6765;&amp;#x770B;TCP&amp;#x62A5;&amp;#x6587;&amp;#x683C;&amp;#x5F0F;&amp;#x56FE;&quot;&gt;&lt;a href=&quot;#&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4EEC;&amp;#x6765;&amp;#x770B;TCP&amp;#x62A5;&amp;#x6587;&amp;#x683C;&amp;#x5F0F;&amp;#x56FE;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4EEC;&amp;#x6765;&amp;#x770B;TCP&amp;#x62A5;&amp;#x6587;&amp;#x683C;&amp;#x5F0F;&amp;#x56FE;&quot;&gt;&lt;/a&gt;&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4EEC;&amp;#x6765;&amp;#x770B;TCP&amp;#x62A5;&amp;#x6587;&amp;#x683C;&amp;#x5F0F;&amp;#x56FE;&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/2016/05/13/TCP-IP/sanciwoshou1.png&quot; alt=&quot;sanciwoshou1&quot;&gt;&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4EEC;&amp;#x6765;&amp;#x770B;TCP&amp;#x62A5;&amp;#x6587;&amp;#x683C;&amp;#x5F0F;&amp;#x56FE;&quot;&gt;&lt;a href=&quot;#&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4EEC;&amp;#x6765;&amp;#x770B;TCP&amp;#x62A5;&amp;#x6587;&amp;#x683C;&amp;#x5F0F;&amp;#x56FE;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4EEC;&amp;#x6765;&amp;#x770B;TCP&amp;#x62A5;&amp;#x6587;&amp;#x683C;&amp;#x5F0F;&amp;#x56FE;&quot;&gt;&lt;/a&gt;&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4EEC;&amp;#x6765;&amp;#x770B;TCP&amp;#x62A5;&amp;#x6587;&amp;#x683C;&amp;#x5F0F;&amp;#x56FE;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/2016/05/13/TCP-IP/sanciwoshou1.png&quot; alt=&quot;sanciwoshou1&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&amp;#x4E0A;&amp;#x56FE;&amp;#x4E2D;&amp;#x6709;&amp;#x51E0;&amp;#x4E2A;&amp;#x5B57;&amp;#x6BB5;&amp;#x9700;&amp;#x8981;&amp;#x91CD;&amp;#x70B9;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E0B;:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;1.&amp;#x5E8F;&amp;#x53F7;&amp;#xFF1A;Seq&amp;#x5E8F;&amp;#x53F7;&amp;#xFF0C;&amp;#x5360;32&amp;#x4F4D;&amp;#xFF0C;&amp;#x7528;&amp;#x6765;&amp;#x6807;&amp;#x8BC6;&amp;#x4ECE;TCP&amp;#x6E90;&amp;#x7AEF;&amp;#x5411;&amp;#x76EE;&amp;#x7684;&amp;#x7AEF;&amp;#x53D1;&amp;#x9001;&amp;#x7684;&amp;#x5B57;&amp;#x8282;&amp;#x6D41;&amp;#xFF0C;&amp;#x53D1;&amp;#x8D77;&amp;#x65B9;&amp;#x53D1;&amp;#x9001;&amp;#x6570;&amp;#x636E;&amp;#x65F6;&amp;#x5BF9;&amp;#x6B64;&amp;#x8FDB;&amp;#x884C;&amp;#x6807;&amp;#x8BB0;&amp;#x3002;&lt;br&gt;2.&amp;#x786E;&amp;#x8BA4;&amp;#x5E8F;&amp;#x53F7;&amp;#xFF1A;Ack&amp;#x5E8F;&amp;#x53F7;&amp;#xFF0C;&amp;#x5360;32&amp;#x4F4D;&amp;#xFF0C;&amp;#x53EA;&amp;#x6709;ACK&amp;#x6807;&amp;#x5FD7;&amp;#x4F4D;&amp;#x4E3A;1&amp;#x65F6;&amp;#xFF0C;&amp;#x786E;&amp;#x8BA4;&amp;#x5E8F;&amp;#x53F7;&amp;#x5B57;&amp;#x6BB5;&amp;#x624D;&amp;#x6709;&amp;#x6548;&amp;#xFF0C;Ack=Seq+1&amp;#x3002;&lt;br&gt;3.&amp;#x6807;&amp;#x5FD7;&amp;#x4F4D;&amp;#xFF1A;&amp;#x5171;6&amp;#x4E2A;&amp;#xFF0C;&amp;#x5373;URG&amp;#x3001;ACK&amp;#x3001;PSH&amp;#x3001;RST&amp;#x3001;SYN&amp;#x3001;FIN&amp;#x7B49;&amp;#xFF0C;&amp;#x5177;&amp;#x4F53;&amp;#x542B;&amp;#x4E49;&amp;#x5982;&amp;#x4E0B;&amp;#xFF1A;&lt;br&gt;&amp;#xFF08;A&amp;#xFF09;URG&amp;#xFF1A;&amp;#x7D27;&amp;#x6025;&amp;#x6307;&amp;#x9488;&amp;#xFF08;urgent pointer&amp;#xFF09;&amp;#x6709;&amp;#x6548;&amp;#x3002;(urgent&amp;#x7D27;&amp;#x6025;)&lt;br&gt;&amp;#xFF08;B&amp;#xFF09;ACK&amp;#xFF1A;&amp;#x786E;&amp;#x8BA4;&amp;#x5E8F;&amp;#x53F7;&amp;#x6709;&amp;#x6548;&amp;#x3002;(acknowledgement &amp;#x786E;&amp;#x8BA4;)&lt;br&gt;&amp;#xFF08;C&amp;#xFF09;PSH&amp;#xFF1A;&amp;#x63A5;&amp;#x6536;&amp;#x65B9;&amp;#x5E94;&amp;#x8BE5;&amp;#x5C3D;&amp;#x5FEB;&amp;#x5C06;&amp;#x8FD9;&amp;#x4E2A;&amp;#x62A5;&amp;#x6587;&amp;#x4EA4;&amp;#x7ED9;&amp;#x5E94;&amp;#x7528;&amp;#x5C42;&amp;#x3002;(push&amp;#x4F20;&amp;#x9001;)&lt;br&gt;&amp;#xFF08;D&amp;#xFF09;RST&amp;#xFF1A;&amp;#x91CD;&amp;#x7F6E;&amp;#x8FDE;&amp;#x63A5;&amp;#x3002;(reset&amp;#x91CD;&amp;#x7F6E;)&lt;br&gt;&amp;#xFF08;E&amp;#xFF09;SYN&amp;#xFF1A;&amp;#x53D1;&amp;#x8D77;&amp;#x4E00;&amp;#x4E2A;&amp;#x65B0;&amp;#x8FDE;&amp;#x63A5;&amp;#x3002;(synchronous&amp;#x5EFA;&amp;#x7ACB;&amp;#x8054;&amp;#x673A;)&lt;br&gt;&amp;#xFF08;F&amp;#xFF09;FIN&amp;#xFF1A;&amp;#x91CA;&amp;#x653E;&amp;#x4E00;&amp;#x4E2A;&amp;#x8FDE;&amp;#x63A5;&amp;#x3002;(finish&amp;#x7ED3;&amp;#x675F;)&lt;/p&gt;
@@ -44,7 +76,7 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4EEC;&amp;#x6765;&amp;#x770B;TCP&amp;#x62A5;&amp;#x6587;&amp;#x683C;&amp;#x5F0F;&amp;#x56FE;&quot;&gt;&lt;a href=&quot;#&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4E
+      &lt;h2 id=&quot;&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4EEC;&amp;#x6765;&amp;#x770B;TCP&amp;#x62A5;&amp;#x6587;&amp;#x683C;&amp;#x5F0F;&amp;#x56FE;&quot;&gt;&lt;a href=&quot;#&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4EEC;&amp;#x6765;&amp;#x770B;TCP&amp;#x62A5;&amp;#x6587;&amp;#x683C;&amp;#x5F0F;&amp;#x56FE;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4EEC;&amp;#x6765;&amp;#x770B;TCP&amp;#x62A5;&amp;#x6587;&amp;#x683C;&amp;#x5F0F;&amp;#x56FE;&quot;&gt;&lt;/a&gt;&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4EEC;&amp;#x6765;&amp;#x770B;TCP&amp;#x62A5;&amp;#x6587;&amp;#x683C;&amp;#x5F0F;&amp;#x56FE;&lt;/h2&gt;
     
     </summary>
     
