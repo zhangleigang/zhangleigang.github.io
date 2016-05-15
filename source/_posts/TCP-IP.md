@@ -5,7 +5,7 @@ author: zhangleigang
 category: network
 ---
 
-## 首先我们来看TCP报文格式图
+## 首先我们来看TCP报文格式图<!-- more -->
 ![sanciwoshou1](TCP-IP/sanciwoshou1.png)
 
 上图中有几个字段需要重点介绍下:

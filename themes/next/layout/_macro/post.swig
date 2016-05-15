@@ -57,18 +57,6 @@
             </time>
           </span>
 
-          {% if post.author %}
-          <span class="post-author">
-            &nbsp; | &nbsp;
-            {{ post.author }}
-          </span>
-          {% else %}
-          <span class="post-author">
-            &nbsp; | &nbsp;
-            红领巾
-          </span>
-          {% endif %}
-
           {% if post.categories and post.categories.length %}
             <span class="post-category" >
               &nbsp; | &nbsp;
@@ -124,6 +112,13 @@
                </span>
                <span class="post-meta-item-text">{{__('post.visitors')}} </span>
                <span class="leancloud-visitors-count"></span>
+              </span>
+          {% endif %}
+
+          {% if not is_index and theme.busuanzi_count.enable and theme.busuanzi_count.page_pv %}
+              &nbsp; | &nbsp;
+              <span class="page-pv">{{ theme.busuanzi_count.page_pv_header }}
+              <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>{{ theme.busuanzi_count.page_pv_footer }}
               </span>
           {% endif %}
         </div>
@@ -187,6 +182,18 @@
       {% else %}
         {{ post.content }}
       {% endif  %}
+    </div>
+
+    <div>
+      {% if not is_index %}
+        {% include 'wechat-subscriber.swig' %}
+      {% endif %}
+    </div>
+
+    <div>
+      {% if not is_index %}
+        {% include 'reward.swig' %}
+      {% endif %}
     </div>
 
     <footer class="post-footer">
