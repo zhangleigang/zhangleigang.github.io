@@ -55,3 +55,6 @@ tags:
 
 	window.addEventListener("message", receiveMessage, false);
 	{% endcodeblock %}
+
+4.总结：
+	之前看过的一篇文章[html5 postMessage解决跨域、跨窗口消息传递](http://www.cnblogs.com/dolphinX/p/3464056.html),其实没有领会到该API接口的关键。关键思想是在父页面发起iframe.contentWindow的postMessage方法，而此时触发的处理事件代码在iframe里面，然后在iframe里通过event.source引用父页面window对象发起postMessage方法。这样子是能检测到发起通信的域名环境的，能保证安全。
