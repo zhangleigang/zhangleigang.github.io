@@ -1,0 +1,651 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="zhangleigang, deposit" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="postMessage&amp;#x5B98;&amp;#x65B9;&amp;#x8BF4;&amp;#x660E;
+&amp;#x4E3B;&amp;#x8981;&amp;#x4F5C;&amp;#x7528;&amp;#xFF1A;The window.postMessage method safely enables cross-origin communication. &amp;#x8BE5;&amp;#x65B9;&amp;#x6CD5;&amp;#x4E3B;&amp;#x8981;&amp;#x">
+<meta property="og:type" content="article">
+<meta property="og:title" content="postMessage">
+<meta property="og:url" content="http://yoursite.com/2016/05/16/postMessage/index.html">
+<meta property="og:site_name" content="张小空">
+<meta property="og:description" content="postMessage&amp;#x5B98;&amp;#x65B9;&amp;#x8BF4;&amp;#x660E;
+&amp;#x4E3B;&amp;#x8981;&amp;#x4F5C;&amp;#x7528;&amp;#xFF1A;The window.postMessage method safely enables cross-origin communication. &amp;#x8BE5;&amp;#x65B9;&amp;#x6CD5;&amp;#x4E3B;&amp;#x8981;&amp;#x">
+<meta property="og:updated_time" content="2016-05-20T14:31:35.031Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="postMessage">
+<meta name="twitter:description" content="postMessage&amp;#x5B98;&amp;#x65B9;&amp;#x8BF4;&amp;#x660E;
+&amp;#x4E3B;&amp;#x8981;&amp;#x4F5C;&amp;#x7528;&amp;#xFF1A;The window.postMessage method safely enables cross-origin communication. &amp;#x8BE5;&amp;#x65B9;&amp;#x6CD5;&amp;#x4E3B;&amp;#x8981;&amp;#x">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"always"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> postMessage | 张小空 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">张小空</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                postMessage
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-05-16T16:27:01+08:00" content="2016-05-16">
+              2016-05-16
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/05/16/postMessage/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/16/postMessage/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="postMessage&#x5B98;&#x65B9;&#x8BF4;&#x660E;"><a href="#postMessage&#x5B98;&#x65B9;&#x8BF4;&#x660E;" class="headerlink" title="postMessage&#x5B98;&#x65B9;&#x8BF4;&#x660E;"></a><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage" target="_blank" rel="external">postMessage&#x5B98;&#x65B9;&#x8BF4;&#x660E;</a></h2><ol>
+<li>&#x4E3B;&#x8981;&#x4F5C;&#x7528;&#xFF1A;The window.postMessage method safely enables cross-origin communication.<br> &#x8BE5;&#x65B9;&#x6CD5;&#x4E3B;&#x8981;&#x662F;&#x7528;&#x6765;&#x5B89;&#x5168;&#x7684;&#x8FDB;&#x884C;&#x8DE8;&#x57DF;&#x901A;&#x4FE1;&#x7684;&#x3002;<a id="more"></a></li>
+<li>API&#x8C03;&#x7528;&#xFF1A; <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">otherWindow.postMessage(message, targetOrigin, [transfer]);</span><br></pre></td></tr></table></figure>
+<ul>
+<li>otherWindow&#x7684;&#x5B9A;&#x4E49;&#xFF1A;A reference to another window; such a reference may be obtained, <strong>for example</strong>, using <strong>the contentWindow property of an iframe element</strong>, the object returned by window.open, or by named or numeric index on window.frames.<br>&#x6211;&#x4EEC;&#x4E3B;&#x8981;&#x5173;&#x6CE8;&#x7684;&#x662F;iframe&#x7684;window&#x5BF9;&#x8C61;&#xFF0C;&#x8FD9;&#x4E2A;&#x901A;&#x8FC7;iframe&#x7684;contentWindow&#x5C5E;&#x6027;&#x53D6;&#x5230;&#x503C;&#xFF0C;window.open&#x8FD4;&#x56DE;&#x7684;&#x60C5;&#x51B5;&#x6CA1;&#x6709;&#x8BD5;&#x8FC7;&#x3002;</li>
+<li>targetOrigin &#x4E3B;&#x8981;&#x7528;&#x4E8E;&#x5B89;&#x5168;,&#x68C0;&#x9A8C;&#x7684;,&#x4E00;&#x822C;&#x662F;&#x53D1;&#x8D77;postMessage&#x65B9;&#x6CD5;&#x7684;&#x57DF;&#x540D;</li>
+</ul>
+</li>
+<li><p>&#x4EE3;&#x7801;&#x793A;&#x4F8B;(&#x4EE5;&#x4E3B;&#x9875;&#x9762;&#x548C;&#x5B83;&#x91CC;&#x9762;&#x7684;iframe&#x4E3E;&#x4F8B;)<br>  <strong>&#x7236;&#x9875;&#x9762;&#x91CC;&#x9762;&#x4EE3;&#x7801;</strong></p>
+ <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//&#x7236;&#x9875;&#x9762;&#x5728;http://example.com:8080&#x57DF;&#x540D;&#x4E0B;&#x9762;</span></span><br><span class="line"><span class="keyword">var</span> iframeWindow = <span class="built_in">window</span>.frames[<span class="number">0</span>].contentWindow;</span><br><span class="line">   iframeWindow.postMessage(<span class="string">&quot;hello there!&quot;</span>, <span class="string">&quot;http://example.org&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">receiveMessage</span>(<span class="params">event</span>)</span><br><span class="line"></span>{</span><br><span class="line">  <span class="comment">//&#x5B89;&#x5168;&#x7B56;&#x7565;</span></span><br><span class="line">  <span class="keyword">if</span> (event.origin !== <span class="string">&quot;http://example.org&quot;</span>)</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// event.source is iframeWindow</span></span><br><span class="line">  <span class="comment">// event.data is &quot;hi there yourself! the secret response is: rheeeeet!&quot;</span></span><br><span class="line">}</span><br><span class="line"><span class="built_in">window</span>.addEventListener(<span class="string">&quot;message&quot;</span>, receiveMessage, <span class="literal">false</span>);</span><br></pre></td></tr></table></figure>
+<p>  <strong>iframe&#x9875;&#x9762;&#x91CC;&#x9762;&#x4EE3;&#x7801;</strong></p>
+ <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//&#x5728;postMessage&#x65B9;&#x6CD5;&#x88AB;&#x8C03;&#x7528;&#x540E;,&#x8BE5;&#x65B9;&#x6CD5;&#x4E5F;&#x4F1A;&#x88AB;&#x8C03;&#x7528;</span></span><br><span class="line"><span class="comment">//message&#x4E8B;&#x4EF6;&#x7C7B;&#x578B;&#x5176;&#x5B9E;&#x5728;postMessage&#x8C03;&#x7528;&#x540E;&#x4F1A;&#x88AB;&#x89E6;&#x53D1;</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">receiveMessage</span>(<span class="params">event</span>)</span><br><span class="line"></span>{</span><br><span class="line">  <span class="comment">// Do we trust the sender of this message?</span></span><br><span class="line">  <span class="keyword">if</span> (event.origin !== <span class="string">&quot;http://example.com:8080&quot;</span>)</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// event.source is window</span></span><br><span class="line">  <span class="comment">// event.data is &quot;hello there!&quot;</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">// a convenient idiom for replying to a</span></span><br><span class="line">  <span class="comment">// message is to call postMessage on event.source and provide</span></span><br><span class="line">  <span class="comment">// event.origin as the targetOrigin.</span></span><br><span class="line">  event.source.postMessage(<span class="string">&quot;hi there yourself!  the secret response &quot;</span> +</span><br><span class="line">                           <span class="string">&quot;is: rheeeeet!&quot;</span>,</span><br><span class="line">                           event.origin);</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="built_in">window</span>.addEventListener(<span class="string">&quot;message&quot;</span>, receiveMessage, <span class="literal">false</span>);</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>4.&#x603B;&#x7ED3;&#xFF1A;<br>    &#x4E4B;&#x524D;&#x770B;&#x8FC7;&#x7684;&#x4E00;&#x7BC7;&#x6587;&#x7AE0;<a href="http://www.cnblogs.com/dolphinX/p/3464056.html" target="_blank" rel="external">html5 postMessage&#x89E3;&#x51B3;&#x8DE8;&#x57DF;&#x3001;&#x8DE8;&#x7A97;&#x53E3;&#x6D88;&#x606F;&#x4F20;&#x9012;</a>,&#x5176;&#x5B9E;&#x6CA1;&#x6709;&#x9886;&#x4F1A;&#x5230;&#x8BE5;API&#x63A5;&#x53E3;&#x7684;&#x5173;&#x952E;&#x3002;&#x5173;&#x952E;&#x601D;&#x60F3;&#x662F;&#x5728;&#x7236;&#x9875;&#x9762;&#x53D1;&#x8D77;iframe.contentWindow&#x7684;postMessage&#x65B9;&#x6CD5;&#xFF0C;&#x800C;&#x6B64;&#x65F6;&#x89E6;&#x53D1;&#x7684;&#x5904;&#x7406;&#x4E8B;&#x4EF6;&#x4EE3;&#x7801;&#x5728;iframe&#x91CC;&#x9762;&#xFF0C;&#x7136;&#x540E;&#x5728;iframe&#x91CC;&#x901A;&#x8FC7;event.source&#x5F15;&#x7528;&#x7236;&#x9875;&#x9762;window&#x5BF9;&#x8C61;&#x53D1;&#x8D77;postMessage&#x65B9;&#x6CD5;&#x3002;&#x8FD9;&#x6837;&#x5B50;&#x662F;&#x80FD;&#x68C0;&#x6D4B;&#x5230;&#x53D1;&#x8D77;&#x901A;&#x4FE1;&#x7684;&#x57DF;&#x540D;&#x73AF;&#x5883;&#x7684;&#xFF0C;&#x80FD;&#x4FDD;&#x8BC1;&#x5B89;&#x5168;&#x3002;</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/05/15/Linux学习环境搭建/" rel="next" title="Linux学习环境搭建">
+                <i class="fa fa-chevron-left"></i> Linux学习环境搭建
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="2016/05/16/postMessage/"
+     data-title="postMessage"
+     data-content=""
+     data-url="http://yoursite.com/2016/05/16/postMessage/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/05/16/postMessage/"
+           data-title="postMessage" data-url="http://yoursite.com/2016/05/16/postMessage/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="https://avatars1.githubusercontent.com/u/6985961"
+               alt="zhangleigang" />
+          <p class="site-author-name" itemprop="name">zhangleigang</p>
+          <p class="site-description motion-element" itemprop="description">just some deposit</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/zhangleigang" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/u/1150671887" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#postMessage官方说明"><span class="nav-number">1.</span> <span class="nav-text">postMessage官方说明</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">zhangleigang</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"zhangleigang"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+  
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+</body>
+</html>
