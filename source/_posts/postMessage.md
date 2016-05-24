@@ -1,6 +1,7 @@
 title: postMessage
 date: 2016-05-16 16:27:01
-tags:
+tags: HTML5
+category: javascript
 ---
 
 ## [postMessage官方说明](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)
