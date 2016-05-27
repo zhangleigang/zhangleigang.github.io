@@ -84,16 +84,22 @@
 
 
 
-<meta name="description" content="just some deposit">
+<meta name="description" content="&amp;#x5149;&amp;#x76D8;yum&amp;#x6E90;&amp;#x642D;&amp;#x5EFA;&amp;#x548C;yum&amp;#x547D;&amp;#x4EE4;
+&amp;#x6302;&amp;#x8F7D;&amp;#x5149;&amp;#x76D8; 1mount /dev/cdrom /mnt/cdrom/
+&amp;#x8BA9;&amp;#x7F51;&amp;#x7EDC;yum&amp;#x6E90;&amp;#x6587;&amp;#x4EF6;&amp;#x5931;&amp;#x6548">
 <meta property="og:type" content="article">
 <meta property="og:title" content="LAMP环境搭建">
 <meta property="og:url" content="http://yoursite.com/2016/05/24/LAMP环境搭建/index.html">
 <meta property="og:site_name" content="张小空">
-<meta property="og:description" content="just some deposit">
-<meta property="og:updated_time" content="2016-05-23T22:10:53.147Z">
+<meta property="og:description" content="&amp;#x5149;&amp;#x76D8;yum&amp;#x6E90;&amp;#x642D;&amp;#x5EFA;&amp;#x548C;yum&amp;#x547D;&amp;#x4EE4;
+&amp;#x6302;&amp;#x8F7D;&amp;#x5149;&amp;#x76D8; 1mount /dev/cdrom /mnt/cdrom/
+&amp;#x8BA9;&amp;#x7F51;&amp;#x7EDC;yum&amp;#x6E90;&amp;#x6587;&amp;#x4EF6;&amp;#x5931;&amp;#x6548">
+<meta property="og:updated_time" content="2016-05-27T01:10:23.844Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="LAMP环境搭建">
-<meta name="twitter:description" content="just some deposit">
+<meta name="twitter:description" content="&amp;#x5149;&amp;#x76D8;yum&amp;#x6E90;&amp;#x642D;&amp;#x5EFA;&amp;#x548C;yum&amp;#x547D;&amp;#x4EE4;
+&amp;#x6302;&amp;#x8F7D;&amp;#x5149;&amp;#x76D8; 1mount /dev/cdrom /mnt/cdrom/
+&amp;#x8BA9;&amp;#x7F51;&amp;#x7EDC;yum&amp;#x6E90;&amp;#x6587;&amp;#x4EF6;&amp;#x5931;&amp;#x6548">
 
 
 
@@ -288,7 +294,20 @@
       
 
       
-        
+        <h2 id="&#x5149;&#x76D8;yum&#x6E90;&#x642D;&#x5EFA;&#x548C;yum&#x547D;&#x4EE4;"><a href="#&#x5149;&#x76D8;yum&#x6E90;&#x642D;&#x5EFA;&#x548C;yum&#x547D;&#x4EE4;" class="headerlink" title="&#x5149;&#x76D8;yum&#x6E90;&#x642D;&#x5EFA;&#x548C;yum&#x547D;&#x4EE4;"></a>&#x5149;&#x76D8;yum&#x6E90;&#x642D;&#x5EFA;&#x548C;yum&#x547D;&#x4EE4;</h2><ol>
+<li>&#x6302;&#x8F7D;&#x5149;&#x76D8; <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mount /dev/cdrom /mnt/cdrom/</span><br></pre></td></tr></table></figure></li>
+<li>&#x8BA9;&#x7F51;&#x7EDC;yum&#x6E90;&#x6587;&#x4EF6;&#x5931;&#x6548;<a id="more"></a> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd /etc/yum.repos.d/</span><br><span class="line">mv CentOS-Base.repo CentOS-Base.repo.bak</span><br><span class="line">mv CentOS-Debuginfo.repo CentOS-Debuginfo.repo.bak</span><br><span class="line">mv CentOS-Vault.repo CentOS-Vault.repo.bak</span><br></pre></td></tr></table></figure>
+ mv&#x7684;&#x529F;&#x80FD;&#x8868;&#x793A;&#x526A;&#x5207;&#x6587;&#x4EF6;&#x3001;&#x6539;&#x540D;</li>
+<li>&#x4FEE;&#x6539;&#x5149;&#x76D8;yum&#x6E90;&#x6587;&#x4EF6;<ul>
+<li>vim CentOS-Media.repo</li>
+<li>&#x8BBE;&#x7F6E;baseurl=file:///mnt/cdrom&#xFF0C;&#x5E76;&#x4E14;&#x6CE8;&#x91CA;&#x6389;&#x4E0B;&#x9762;&#x4E24;&#x4E2A;&#x4E0D;&#x5B58;&#x5728;&#x7684;&#x5730;&#x5740;</li>
+<li>&#x628A;enabled=0&#x6539;&#x4E3A;enabled=1&#xFF0C;&#x8BA9;&#x8FD9;&#x4E2A;yum&#x6E90;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x751F;&#x6548;</li>
+</ul>
+</li>
+<li>&#x5E38;&#x7528;yum&#x547D;&#x4EE4; <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">yum list //&#x67E5;&#x8BE2;&#x6240;&#x6709;&#x53EF;&#x7528;&#x8F6F;&#x4EF6;&#x5305;&#x5217;&#x8868;</span><br><span class="line">yum search &#x5173;&#x952E;&#x5B57; //&#x641C;&#x7D22;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x6240;&#x6709;&#x548C;&#x5173;&#x952E;&#x5B57;&#x76F8;&#x5173;&#x7684;&#x5305;</span><br><span class="line">yum &#x2013;y install &#x5305;&#x540D; //&#x5B89;&#x88C5;&#xFF0C;-y&#x8868;&#x793A;&#x81EA;&#x52A8;&#x56DE;&#x7B54;yes</span><br><span class="line">yum -y remove &#x5305;&#x540D; //&#x5378;&#x8F7D;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+
       
     </div>
 
@@ -475,7 +494,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#光盘yum源搭建和yum命令"><span class="nav-number">1.</span> <span class="nav-text">光盘yum源搭建和yum命令</span></a></li></ol></div>
             
           </div>
         </section>
