@@ -1,14 +1,14 @@
 title: TCP/IP
 date: 2016-05-13 07:00:00
 tags: [network]
-author: zhangleigang
 category: network
+author: zhangleigang
 ---
 
-## 首先我们来看TCP报文格式图<!-- more -->
+## 首先我们来看TCP报文格式图
 ![sanciwoshou1](TCP-IP/sanciwoshou1.png)
 
-上图中有几个字段需要重点介绍下:
+上图中有几个字段需要重点介绍下:<!-- more -->
 >1.序号：Seq序号，占32位，用来标识从TCP源端向目的端发送的字节流，发起方发送数据时对此进行标记。
 >2.确认序号：Ack序号，占32位，只有ACK标志位为1时，确认序号字段才有效，Ack=Seq+1。
 >3.标志位：共6个，即URG、ACK、PSH、RST、SYN、FIN等，具体含义如下：

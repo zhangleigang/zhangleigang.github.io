@@ -5,11 +5,11 @@ category: Linux
 ---
 
 ## 需要准备的软件包
->1.	虚拟机软件VMware Workstation<!-- more -->
+>1.	虚拟机软件VMware Workstation
     win7系统推荐8.0版本，注意该软件并不是免费的。
     * 这里分享一个自己翻墙下的[VMware Workstation 8.0.3](http://pan.baidu.com/s/1i5xvYx3)
     * 需要输入的licence[0U6UU-6AJDL-RZTK9-230Q0-8ARJQ](http://www.56ads.com/article/1440.html)
->2.	linux系统镜像文件
+>2.	linux系统镜像文件<!-- more -->
 	可以到[mirror.163.com](http://mirrors.163.com/)去下载，速度会比较快，最好用迅雷下载。
 
 ## 安装虚拟机
@@ -67,6 +67,7 @@ __挂载__就是利用目录当作分区的进入点，将磁盘分区的数据�
     * [Tab]按键 接在一串命令的第一个命令的后面，为“命令补全”，接在一串命令的第二个命令以后时，则为“文件补全”
     * [Ctrl]-c按键 中断目前程序
     * [Ctrl]-d按键 相当于输入exit
+    * [Ctrl]-l按键或者clear命令 相当于清屏
   >2. man相关
     * 输入"/",光标会移动到屏幕的最下面一行，并等待你输入查找的字符串了
     * 直接按下q离开

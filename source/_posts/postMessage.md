@@ -6,8 +6,8 @@ category: javascript
 
 ## [postMessage官方说明](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)
 1. 主要作用：The window.postMessage method safely enables cross-origin communication.
-    该方法主要是用来安全的进行跨域通信的。<!-- more -->
-2. API调用：
+    该方法主要是用来安全的进行跨域通信的。
+2. API调用：<!-- more -->
 	{% codeblock lang:javascript %}
 	otherWindow.postMessage(message, targetOrigin, [transfer]);
 	{% endcodeblock %}
