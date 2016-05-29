@@ -80,6 +80,11 @@ __挂载__就是利用目录当作分区的进入点，将磁盘分区的数据�
     * 通过ifconfig eth0 xxx.xxx.xxx.x配置只是临时生效
     * 在Host-only和NAT模式下，虚拟机的ip配置需要与虚拟网卡的VMnet1或者VMnet8的IP网段保持一致
     验证：配置完成后可以在windows端的命令窗口ping一下虚拟机ip看是否成功，成功后就能通过SecureCRT端远程管理Linux系统了。
+>3. 让Linux网卡开机自动启动
+    {% codeblock %}
+    vim /etc/sysconfig/network-scripts/ifcfg-eth0
+    设置ONBOOT=yes
+    {% endcodeblock %}
 
 ## vim程序编辑器
 >1. vi基本上分为3种模式，分别是一般模式、编辑模式与命令行模式。

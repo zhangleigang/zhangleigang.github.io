@@ -3,6 +3,20 @@ date: 2016-05-24 06:10:53
 tags:
 ---
 
+## Linux软件安装
+1. 什么是开放源码、编译程序与可执行文件
+	* 可执行文件：Linux系统上真正识别的可执行文件其实是二进制文件，该文件需要有x可执行权限
+	* 编译程序：将人类看的程序语言翻译为机器看得懂的语言。例如在Linux上标准的c语言编译程序为gcc
+	* 开放源码：程序代码，写给人类看的程序语言
+	* 判断一个文件是否为二进制 file name会显示（ELF 32-bit LSB executable）
+2. RPM,全名Redhat Package Manager
+	
+
+
+
+
+
+
 ## 光盘yum源搭建和yum命令
 1. 挂载光盘
 	{% codeblock %}
@@ -27,6 +41,4 @@ tags:
 	yum –y install 包名 //安装，-y表示自动回答yes
 	yum -y remove 包名 //卸载
 	{% endcodeblock %}
-
-   
 
