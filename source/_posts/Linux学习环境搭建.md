@@ -1,7 +1,8 @@
 title: Linux学习环境搭建
 date: 2016-05-15 10:56:35
-tags: start
+tags: Linux
 category: Linux
+author: 张雷刚
 ---
 
 ## 需要准备的软件包

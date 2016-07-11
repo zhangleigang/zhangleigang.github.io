@@ -80,6 +80,33 @@
             </span>
           {% endif %}
 
+          {% if post.author %}
+          <span class="post-author">
+            &nbsp; | &nbsp;
+            {{ post.author }}
+          </span>
+          {% endif %}
+
+          {% if post.tags and post.tags.length %}
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-text">标签：</span>
+              {% for cat in post.tags %}
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="{{ url_for(cat.path) }}" itemprop="url" rel="index">
+                    <span itemprop="name">{{ cat.name }}</span>
+                  </a>
+                </span>
+
+                {% set cat_length = post.tags.length %}
+                {% if cat_length > 1 and loop.index !== cat_length %}
+                  {{ __('symbol.comma') }}
+                {% endif %}
+
+              {% endfor %}
+            </span>
+          {% endif %}
+
           {% if post.comments %}
             {% if (theme.duoshuo and theme.duoshuo.shortname) or theme.duoshuo_shortname %}
               <span class="post-comments-count">

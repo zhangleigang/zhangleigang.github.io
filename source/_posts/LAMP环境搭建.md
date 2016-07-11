@@ -7,9 +7,9 @@ tags:
 1. 什么是开放源码、编译程序与可执行文件
 	* 可执行文件：Linux系统上真正识别的可执行文件其实是二进制文件，该文件需要有x可执行权限
 	* 编译程序：将人类看的程序语言翻译为机器看得懂的语言。例如在Linux上标准的c语言编译程序为gcc
-	* 开放源码：程序代码，写给人类看的程序语言
+	* 开放源码：程序代码，写给人类看的程序语言<!-- more -->
 	* 判断一个文件是否为二进制 file name会显示（ELF 32-bit LSB executable）
-2. RPM,全名Redhat Package Manager<!-- more -->
+2. RPM,全名Redhat Package Manager
 	* RPM是以一种数据库记录的方式来将你所需要的软件安装到你的Linux系统的一套管理机制
 	* rpm包格式(例如rp-pppoe-3.1-5.i386.rpm)
 	{% codeblock %}
@@ -35,6 +35,25 @@ tags:
 	* rz、sz命令的安装方法
 	yum安装不成功时可以下载rpm包来安装[lrzsz-0.12.20-22.1.x86_64.rpm](http://yun.baidu.com/share/link?shareid=355587411&uk=3934253933)
 	* rpm属性依赖的解决方式：yum
+3. 压缩解压命令及创建软链接
+	* tar命令
+	{% codeblock %}
+	命令所在路径：/bin/tar
+	范例：
+	1.打包与压缩
+	tar [-z] [cv] [-f 新建的文件名] filename
+	tar -zcvf Japan.tar.gz Japan
+
+	2.解压缩
+	tar [-z] [xv] [-f 文件名] [-C目录(可选)]
+	tar -zxvf Japan.tar.gz
+
+	选项含义：(-c和-x不可同时出现在一串命令中)
+		-z 通过gzip的支持进行压缩/解压缩
+		-c 新建打包文件
+		-x 解打包或解压缩的功能
+		-v 在压缩/解压缩的过程中，将正在处理的文件名显示出来
+	{% endcodeblock %}
 
 ## 光盘yum源搭建和yum命令
 1. 挂载光盘

@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "zhangleigang, deposit"
+keywords: "Hexo, NexT"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -14,9 +14,12 @@ keywords: "zhangleigang, deposit"
 rss: false
 
 # Specify the date when the site was setup
-since: 2016
+#since: 2015
 
-
+# Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
+# See: https://support.google.com/webmasters/answer/139066
+# Tips: Before you open this tag, remeber set up your URL in hexo _config.yml ( ex. url: http://yourdomain.com )
+canonical: true
 
 
 # ---------------------------------------------------------------
@@ -117,6 +120,8 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
+#social:
+  #LinkLabel: Link
 social:
   GitHub: https://github.com/zhangleigang
   Weibo: http://weibo.com/u/1150671887
@@ -178,10 +183,6 @@ sidebar:
 #links_layout: inline
 #links:
   #Title: http://example.com/
-#links_title: Links
-#links_layout: inline 
-#links:
-  #sinaad: http://sinaad.github.io/xfe/
 
 
 # ---------------------------------------------------------------
@@ -202,7 +203,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night bright
+highlight_theme: normal
 
 
 # Automatically scroll page to section which is under <!-- more --> mark.
@@ -290,6 +291,13 @@ facebook_sdk:
   fb_admin:     #<user_id>
   like_button:  #true
   webmaster:    #true
+
+# Facebook comments plugin
+# This plugin depends on Facebook SDK.
+# If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
+facebook_comments_plugin:
+  enable: false
+  num_of_posts: 10
 
 
 # Show number of visitors to each article.
