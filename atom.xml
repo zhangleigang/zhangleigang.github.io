@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-29T12:06:16.931Z</updated>
+  <updated>2016-07-11T16:26:11.705Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/05/24/LAMP%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     <id>http://yoursite.com/2016/05/24/LAMP环境搭建/</id>
     <published>2016-05-23T22:10:53.000Z</published>
-    <updated>2016-05-29T12:06:16.931Z</updated>
+    <updated>2016-07-11T16:26:11.705Z</updated>
     
     <content type="html">&lt;h2 id=&quot;Linux&amp;#x8F6F;&amp;#x4EF6;&amp;#x5B89;&amp;#x88C5;&quot;&gt;&lt;a href=&quot;#Linux&amp;#x8F6F;&amp;#x4EF6;&amp;#x5B89;&amp;#x88C5;&quot; class=&quot;headerlink&quot; title=&quot;Linux&amp;#x8F6F;&amp;#x4EF6;&amp;#x5B89;&amp;#x88C5;&quot;&gt;&lt;/a&gt;Linux&amp;#x8F6F;&amp;#x4EF6;&amp;#x5B89;&amp;#x88C5;&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;&amp;#x4EC0;&amp;#x4E48;&amp;#x662F;&amp;#x5F00;&amp;#x653E;&amp;#x6E90;&amp;#x7801;&amp;#x3001;&amp;#x7F16;&amp;#x8BD1;&amp;#x7A0B;&amp;#x5E8F;&amp;#x4E0E;&amp;#x53EF;&amp;#x6267;&amp;#x884C;&amp;#x6587;&amp;#x4EF6;&lt;ul&gt;
@@ -77,7 +77,7 @@
     <link href="http://yoursite.com/2016/05/16/postMessage/"/>
     <id>http://yoursite.com/2016/05/16/postMessage/</id>
     <published>2016-05-16T08:27:01.000Z</published>
-    <updated>2016-05-27T01:10:45.708Z</updated>
+    <updated>2016-07-11T16:26:11.736Z</updated>
     
     <content type="html">&lt;h2 id=&quot;postMessage&amp;#x5B98;&amp;#x65B9;&amp;#x8BF4;&amp;#x660E;&quot;&gt;&lt;a href=&quot;#postMessage&amp;#x5B98;&amp;#x65B9;&amp;#x8BF4;&amp;#x660E;&quot; class=&quot;headerlink&quot; title=&quot;postMessage&amp;#x5B98;&amp;#x65B9;&amp;#x8BF4;&amp;#x660E;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;postMessage&amp;#x5B98;&amp;#x65B9;&amp;#x8BF4;&amp;#x660E;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;&amp;#x4E3B;&amp;#x8981;&amp;#x4F5C;&amp;#x7528;&amp;#xFF1A;The window.postMessage method safely enables cross-origin communication.&lt;br&gt; &amp;#x8BE5;&amp;#x65B9;&amp;#x6CD5;&amp;#x4E3B;&amp;#x8981;&amp;#x662F;&amp;#x7528;&amp;#x6765;&amp;#x5B89;&amp;#x5168;&amp;#x7684;&amp;#x8FDB;&amp;#x884C;&amp;#x8DE8;&amp;#x57DF;&amp;#x901A;&amp;#x4FE1;&amp;#x7684;&amp;#x3002;&lt;/li&gt;
@@ -116,7 +116,7 @@
     <link href="http://yoursite.com/2016/05/15/Linux%E5%AD%A6%E4%B9%A0%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     <id>http://yoursite.com/2016/05/15/Linux学习环境搭建/</id>
     <published>2016-05-15T02:56:35.000Z</published>
-    <updated>2016-07-10T10:34:14.010Z</updated>
+    <updated>2016-07-11T16:26:11.706Z</updated>
     
     <content type="html">&lt;h2 id=&quot;&amp;#x9700;&amp;#x8981;&amp;#x51C6;&amp;#x5907;&amp;#x7684;&amp;#x8F6F;&amp;#x4EF6;&amp;#x5305;&quot;&gt;&lt;a href=&quot;#&amp;#x9700;&amp;#x8981;&amp;#x51C6;&amp;#x5907;&amp;#x7684;&amp;#x8F6F;&amp;#x4EF6;&amp;#x5305;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x9700;&amp;#x8981;&amp;#x51C6;&amp;#x5907;&amp;#x7684;&amp;#x8F6F;&amp;#x4EF6;&amp;#x5305;&quot;&gt;&lt;/a&gt;&amp;#x9700;&amp;#x8981;&amp;#x51C6;&amp;#x5907;&amp;#x7684;&amp;#x8F6F;&amp;#x4EF6;&amp;#x5305;&lt;/h2&gt;&lt;blockquote&gt;
 &lt;ol&gt;
@@ -236,7 +236,7 @@
     <link href="http://yoursite.com/2016/05/13/TCP-IP/"/>
     <id>http://yoursite.com/2016/05/13/TCP-IP/</id>
     <published>2016-05-12T23:00:00.000Z</published>
-    <updated>2016-05-27T01:10:48.669Z</updated>
+    <updated>2016-07-11T16:26:11.726Z</updated>
     
     <content type="html">&lt;h2 id=&quot;&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4EEC;&amp;#x6765;&amp;#x770B;TCP&amp;#x62A5;&amp;#x6587;&amp;#x683C;&amp;#x5F0F;&amp;#x56FE;&quot;&gt;&lt;a href=&quot;#&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4EEC;&amp;#x6765;&amp;#x770B;TCP&amp;#x62A5;&amp;#x6587;&amp;#x683C;&amp;#x5F0F;&amp;#x56FE;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4EEC;&amp;#x6765;&amp;#x770B;TCP&amp;#x62A5;&amp;#x6587;&amp;#x683C;&amp;#x5F0F;&amp;#x56FE;&quot;&gt;&lt;/a&gt;&amp;#x9996;&amp;#x5148;&amp;#x6211;&amp;#x4EEC;&amp;#x6765;&amp;#x770B;TCP&amp;#x62A5;&amp;#x6587;&amp;#x683C;&amp;#x5F0F;&amp;#x56FE;&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/2016/05/13/TCP-IP/sanciwoshou1.png&quot; alt=&quot;sanciwoshou1&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&amp;#x4E0A;&amp;#x56FE;&amp;#x4E2D;&amp;#x6709;&amp;#x51E0;&amp;#x4E2A;&amp;#x5B57;&amp;#x6BB5;&amp;#x9700;&amp;#x8981;&amp;#x91CD;&amp;#x70B9;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E0B;:&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
